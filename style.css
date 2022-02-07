@@ -17,7 +17,7 @@ body {
 	background-color: #8cad79;
 }
 .logo {
-	color: #ebe7dc;
+	color: #f5f2e9;
 	font-size: 24px;
 }
 ul {
@@ -31,32 +31,45 @@ li {
 	font-size: 18px;
 }
 a {
-	color: #e6e1d5;
 	list-style: none;
 	text-decoration: none;
 }
+.page {
+	color: #f5f2e9;
+}
 /*hero*/
 .hero {
-	height: 45vh;
 	background-color: #8cad79;
-	padding: 24px;
+	padding: 24px 48px 48px 24px;
 	margin: 0;
 	display: flex;
-	color: #ebe7dc;
+	color: #f5f2e9;
 	justify-content: space-around;
 	align-items: center;
 }
 .large-text {
-	font-size: 48px;
+	font-size: 64px;
 	font-weight: 900;
 }
 .small-text {
 	flex-wrap: wrap;
-	padding-bottom: 3px;
+}
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 .button {
-	padding: 0;
+	height: 33px;
+	width: 115px;
+	padding: 3px;
 	margin: 0;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #f5f2e9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 button {
 	font-weight: 900;
@@ -65,12 +78,11 @@ button {
 	margin: 0;
 	background-color: #ebe7dc;
 	color: #8cad79;
-	border-style: solid;
-	border-width: 3px;
-	border-color: #6f8b5e;
+	border-style: none;
 }
 .img-holder {
-	background-color: #6f8b5e;
+	background-color: #c6d6bc;
+	color: #82a071;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -78,28 +90,44 @@ button {
 	height: 300px;
 }
 /*information*/
-.info-blocks {
-	background-color: #ebe7dc;
-	height: 50vh;
-	padding: 0;
-	margin: 0;
+.info {
+	background-color: #f5f2e9;
+	color: #8cad79;
+	padding: 32px;
 }
 .info-text {
 	display: flex;
 	justify-content: center;
-	padding: 12px;
-	margin: 0;
-	font-size: 32px;
+	align-items: center;
+	font-size: 48px;
 	font-weight: 700;
-	color: #8cad79;
 }
-.links {
-	color: #8cad79;
+.blocks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px;
+}
+.block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.img-blocks {
+	height: 250px;
+	width: 250px;
+	border: thick solid #8cad79;
+	border-radius: 10px;
+	padding: 0.1px;
+}
+.text {
+	margin: 0;
+	padding: 0 8px 8px 0;
 }
 /*quote & sign-up*/
 .q-sign-up {
-	background-color: #e6e1d5;
-	height: 80vh;
+	background-color: #c6d6bc;
 }
 /*footer*/
 .footer {
