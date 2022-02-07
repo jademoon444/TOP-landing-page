@@ -8,9 +8,10 @@ body {
 	margin: 0;
 }
 /*header*/
-.header {
+.header,
+.footer {
 	display: flex;
-	padding: 0 16px;
+	padding: 0 /*16px*/ 5%;
 	margin: 0;
 	justify-content: space-between;
 	align-items: center;
@@ -172,6 +173,8 @@ button {
 }
 /*footer*/
 .footer {
-	display: flex;
-	background-color: #8cad79;
+	justify-content: center;
+	height: 5vh;
+	font-size: 12px;
+	color: #f5f2e9;
 }
