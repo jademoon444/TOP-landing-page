@@ -66,7 +66,7 @@ a {
 	margin: 0;
 	border-style: solid;
 	border-width: 3px;
-	border-color: #f5f2e9;
+	border-color: #d2dbcc;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -76,7 +76,7 @@ button {
 	border-radius: 0;
 	padding: 8px 15px;
 	margin: 0;
-	background-color: #f5f2e9;
+	background-color: #d2dbcc;
 	color: #8cad79;
 	border-style: none;
 }
@@ -118,7 +118,7 @@ button {
 	height: 250px;
 	width: 250px;
 	border: thick solid #8cad79;
-	border-radius: 10px;
+	border-radius: 13px;
 	padding: 0.1px;
 }
 .text {
@@ -127,7 +127,7 @@ button {
 }
 /*quote & sign-up*/
 .q {
-	background-color: #d2dbcc;
+	background-color: #e6ece3;
 	color: #8cad79;
 	font-size: 36px;
 	font-weight: 600px;
@@ -142,6 +142,33 @@ button {
 	margin: 0;
 	display: flex;
 	justify-content: center;
+}
+/*added late but sign up section*/
+.sign-up {
+	padding: 10vh 0 4vh 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: #f5f2e9;
+}
+.alert {
+	background-color: #d2dbcc;
+	color: #8cad79;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding: 0 80px 0px 32px;
+	border-radius: 13px;
+	gap: 16px;
+}
+.sign-text {
+	padding: 48px;
+	margin: 0;
+}
+.button2 {
+	color: #8cad79;
+	border: medium solid #8cad79;
 }
 /*footer*/
 .footer {
