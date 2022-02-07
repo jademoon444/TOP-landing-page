@@ -18,7 +18,7 @@ body {
 }
 .logo {
 	color: #f5f2e9;
-	font-size: 24px;
+	font-size: 30px;
 }
 ul {
 	display: flex;
@@ -76,13 +76,13 @@ button {
 	border-radius: 0;
 	padding: 8px 15px;
 	margin: 0;
-	background-color: #ebe7dc;
+	background-color: #f5f2e9;
 	color: #8cad79;
 	border-style: none;
 }
 .img-holder {
-	background-color: #c6d6bc;
-	color: #82a071;
+	background-color: #d2dbcc;
+	color: #8cad79;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -126,10 +126,25 @@ button {
 	padding: 0 8px 8px 0;
 }
 /*quote & sign-up*/
-.q-sign-up {
-	background-color: #c6d6bc;
+.q {
+	background-color: #d2dbcc;
+	color: #8cad79;
+	font-size: 36px;
+	font-weight: 600px;
+	padding: 80px 60px 80px 60px;
+	display: flex;
+	align-items: center;
+}
+
+.quote {
+	border: medium solid #8cad79;
+	padding: 32px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
 }
 /*footer*/
 .footer {
+	display: flex;
 	background-color: #8cad79;
 }
